@@ -1,0 +1,51 @@
+<!DOCTYPE html5>
+<html ng-app="movieApp">
+    <head>
+        <title>PopCorn</title>
+        <link rel="icon" href="img/favicon.ico" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- css -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Meera+Inimai|Mukta+Mahee" rel="stylesheet">
+
+        <!-- angularjs -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+
+        <!-- principal module -->
+        <script src="js/app.js"></script>
+
+        <!-- movie module -->
+        <script src="js/app/movie/movie.module.js"></script>
+        <!-- controladores module -->
+        <script src="js/app/movie/controllers/controllers.module.js"></script>
+        <script src="js/app/movie/controllers/movie.ctrl.js"></script>
+        <!-- servicios module -->
+        <script src="js/app/movie/services/services.module.js"></script>
+        <script src="js/app/movie/services/movie.mdl.js"></script>
+        <script src="js/app/movie/services/movie.srvc.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <div class="titulo">
+                <a href="#/!">PopCorn Películas</a>
+                <img src="img/logo.png" alt="PopCorn" width="50">
+            </div>
+
+            <nav>
+                <a href="#/!">Inicio</a>
+                <a href="#/listaMovies">Lista de películas</a>
+            </nav>
+        </header>
+
+
+        <div ng-view></div>
+
+        {{2 + 2}}
+    </body>
+</html>

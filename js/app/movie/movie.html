@@ -1,0 +1,24 @@
+        <div ng-controller="movieCtrl as mvCtrl">
+            <!--
+            <div ng-repeat="mv in mvCtrl.movies">
+                {{mv.titulo}} {{mv.genero}} {{mv.score}} {{mv.fechaEstreno}} {{mv.duracion}}
+            </div>
+            -->
+
+            <table>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Género</th>
+                    <th>Puntuación</th>
+                    <th>Fecha de Estreno</th>
+                    <th>Duración</th>
+                </tr>
+                <tr ng-repeat="mv in mvCtrl.movies">
+                    <td>{{mv.titulo}}</td>
+                    <td>{{mv.genero}}</td>
+                    <td>{{mv.score}}</td>
+                    <td>{{mv.fechaEstreno}}</td>
+                    <td>{{mv.duracion}} min</td>
+                </tr>
+            </table>
+        </div>
