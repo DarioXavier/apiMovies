@@ -1,0 +1,21 @@
+Llave API (v3 auth)
+6b048cca53550e7610bc494eb602b90a
+
+Token de acceso de lectura a la API (v4 auth)
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YjA0OGNjYTUzNTUwZTc2MTBiYzQ5NGViNjAyYjkwYSIsInN1YiI6IjU5YTA1N2Y0OTI1MTQxNzc5ZjAxNWJiNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.J0oOLiT0DNda37UXvk9_gS9ahWE66Kx8tfoXsay-tQo
+
+Ejemplo de Solicitud API
+https://api.themoviedb.org/3/movie/550?api_key=6b048cca53550e7610bc494eb602b90a
+
+
+Lenguaje español
+&language=es
+
+Imágenes
+https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg
+
+Top
+https://api.themoviedb.org/3/movie/top_rated?api_key=6b048cca53550e7610bc494eb602b90a&language=es-US&page=1
+
+genero
+https://api.themoviedb.org/3/genre/movie/list?api_key=6b048cca53550e7610bc494eb602b90a&language=es

@@ -121,6 +121,14 @@ div {
     color: rgba(200,200,200, 0.90);
 }
 
+.genero {
+    margin: 0.5rem;
+	padding: 0.5rem;
+    font-family: 'Meera Inimai', sans-serif;
+    font-size: 1rem;
+    color: rgba(200,200,200, 0.90);
+    font-style: italic;
+}
 /*
 font-family: 'Fascinate Inline', cursive;
 font-family: 'Meera Inimai', sans-serif;

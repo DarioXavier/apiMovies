@@ -14,7 +14,7 @@
                     templateUrl: 'js/app/movie/movie.html'
                 })
                 .otherwise({
-                    templateUrl: 'index.html'
+                    redirectTo: '/'
                 })
         });
 }());

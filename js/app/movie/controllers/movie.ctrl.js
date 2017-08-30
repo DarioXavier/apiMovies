@@ -8,6 +8,7 @@
         movieCtrl.$inject = ['movieService']
 
     function movieCtrl(movieService){
+        
         var mvCtrl = this;
 
         init();
